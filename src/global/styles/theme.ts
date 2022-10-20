@@ -1,5 +1,6 @@
 export default {
     colors: {
-        background: '#fff'
+        background: '#fff',
+        backgroundWater: '#58ABF6'
     }
 }

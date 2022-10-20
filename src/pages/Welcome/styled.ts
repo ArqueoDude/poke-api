@@ -8,6 +8,15 @@ export const Container = styled.View`
     `}
 `;
 
-export const Content = styled.View``;
+export const Content = styled.View`
+    height: 70%;
+`;
 
-export const Footer = styled.View``;
+export const Footer = styled.View`
+    ${({theme}) => css`
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 30%;
+        background-color: ${theme.colors.backgroundWater};
+    `}
+`;
