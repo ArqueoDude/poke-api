@@ -4,7 +4,7 @@ export default {
         backgroundWater: '#58ABF6',
         text_white: '#fff'
     },
-    text: {
-         
+    types: {
+         water: '#4A90DA'
     }
 }
